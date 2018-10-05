@@ -97,10 +97,43 @@ These images are 28 x 28 pixel images and so are very small. Therefore we will t
 
 Notebook editors are often using in Machine Learning.
 
+1. Browse to [https//notebooks.azure.com/](https//notebooks.azure.com/)
+    * Choose sign in
+    ![Azure notebooks sign in](./images/azurenotebooks.JPG "Azure notebooks sign in")
+    * Sign in with your Microsoft Account username and password
+    ![Permissions](./images/permision2.JPG "Permissions")
+    * Create a user ID - such as your name
+    ![Create User ID](./images/userid.JPG "Create User ID")
 
+2. Now you are signed in lets start running some code
+    * Create a new library. Click create library
+    ![Create Library](./images/createalibrary.JPG "Create Library")
+    * Now select new to upload a notebook
+    ![Upload Notebook](./images/notebooks.JPG "Upload Notebook")
+    * Choose 'From Computer' and 'Choose Files' - then locate the custom-vision-sample.ipynb file from path: \deep-learning-fashion\custom-vision
+    ![Upload Notebook](./images/uploadnotebook.JPG "Upload Notebook")
+    * Choose the uploaded python notebook file to open it
+    ![File Uploaded](./images/file.JPG "File Uploaded")
+    * You may recieve a message about the notebook Kernel. If so please select Python 2 and select 'Set Kernel'
+    ![Select Kernel](./images/kernel.JPG "Select Kernel")
 
+3. To run code in a python notebook. You select the code cell and press 'CTRL' + ENTER on your keyboard. You will see a small asteriks (*) at the left side of the notebook stating the notebook is running. Once complete the output of the code will be printed below each cell.
+![Code](./images/code.JPG "Code")
+    * To learn more about Jupyter Notebooks review the documentation here: [https://jupyter-notebook.readthedocs.io/en/stable/notebook.html](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
 
+4. There are a few keys and urls we need to edit before running the code:
+    * **customvisionapi_key** - you can find your 'prediction key' in customvision.ai UI under settings
+    *Settings Tab
+    ![Settings](./images/settings.JPG "Settings")
+    * Key
+    ![Keys](./images/keys.JPG "Keys")
+    * **custom_vision_url** - you can find this information under 'Performance' tab, choose 'Prediction URL' button and copy everything after *https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/* from the 'If you have an image URL' section
+    ![Prediction Endpoint](./images/predictionendpoint.JPG "Predicition Endpoint")
 
+5. Now run the code using CTRL + ENTER and review the output. Which class was predicted with the highest probability?
+![output](./images/output.JPG "output")
+
+6. Why not try another image to test? Select another image from the 'test' folder: [https://github.com/amynic/deep-learning-fashion/tree/master/dataset/test](https://github.com/amynic/deep-learning-fashion/tree/master/dataset/test) and replace the filename in the **body** variable
 
 
 ## Microsoft Data Science Virtual Machine for Deep Learning
