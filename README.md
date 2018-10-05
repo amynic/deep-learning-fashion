@@ -17,7 +17,7 @@ Both exercises will show you, step-by-step, how to classify clothing into catego
 
 ## Microsoft Custom Vision and Azure Notebooks for Image Classification
 
-1. Download and unzip the 'dataset.zip' file from GitHub. 
+1. Download and unzip the 'dataset.zip' file from GitHub *(should take around 10 secs)*. 
     * Select the dataset folder and choose the download button
     ![download data](./images/download.JPG "download data")
     * Or download the whole repository from the Readme page
