@@ -5,10 +5,9 @@
 *Image classification of fashion items using Deep Learning* - Classifying numbers and letters is so last season .. Let’s classify our wardrobes instead! Learn all about the in’s and out’s of image classification using deep learning. 
 
 ### Contents:
-* [Pre-requisities](https://github.com/amynic/deep-learning-fashion#pre-requisities
-* )
+* [Pre-requisities](https://github.com/amynic/deep-learning-fashion#pre-requisities)
 * [Microsoft Custom Vision for Image Classification](https://github.com/amynic/deep-learning-fashion#microsoft-custom-vision-and-azure-notebooks-for-image-classification)
-* [Azure Notebooks for Image Classification]()
+* [Azure Notebooks for Image Classification](https://github.com/amynic/deep-learning-fashion#azure-notebooks-for-image-classification)
 * [Microsoft Data Science Virtual Machine for Deep Learning](https://github.com/amynic/deep-learning-fashion#microsoft-data-science-virtual-machine-for-deep-learning)
 
 
