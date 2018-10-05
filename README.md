@@ -202,6 +202,8 @@ Notebook editors are often using in Machine Learning.
 6. Edit the Jupyter Notebook to edit the model
     * Now can you edit the code in places to make changes to your model? Look out for hints, tips and questions in the notebook for how to edit the model
 
+![Deep learning code](./images/deeplearningcode.JPG "Deep Learning Code")
+
 
 # Remember to delete your resources
 
