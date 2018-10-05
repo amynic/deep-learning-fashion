@@ -22,6 +22,69 @@ Both exercises will show you, step-by-step, how to classify clothing into catego
     ![download data](./images/download.JPG "download data")
     * Or download the whole repository from the Readme page
     ![download folder](./images/downloadfolder.JPG "download folder")
+    * This contains two folders: train and test data. Look in the folder and view the images
+    ![Training Images](./images/images.JPG "Training Images")
+2. Visit [www.customvision.ai](http://www.customvision.ai/) and click 'Sign In'
+    * Enter your Microsoft Account email and password
+    * accept the permissions ask window
+    ![permissions](./images/permissions.JPG "permissions")
+    * Continue with the trial account
+    ![trial account](./images/trialmode.JPG "trial account")
+    * now you should see a portal like below
+    ![portal](./images/portal.JPG "portal")
+
+3. Create a new project
+    * Select new project and complete the fields as shown below
+    ![Create new project](./images/createnewproject.JPG "Create new project")
+        * Name: name of project
+        * Description: description of project
+        * Project Types: Classification
+        * Classification Types: Multiclass (single tag per image)
+        * Domains: Retail
+    * Finally click create project and you should see the below
+    ![Get Started](./images/getstarted.JPG "Get Started")
+ 
+4. Now lets add training images and classes to our model
+    * Click Add Images in the top left
+    ![Add Images](./images/addimages.JPG "Add Images")
+    * From the 'train' folder of images, every image is prefixed with a label number. For example: 0label_image1.png - this means label/class/category 0 and image 1. There are 0-9 classes for this model and 25 training images per class. Select all the images for class 0 and choose open
+    ![Select Images](./images/selectimages.JPG "Select Images")
+    * On the upload screen, review the images and in the 'My Tags' box type 'tshirt' and hit enter.
+    * Once the 'tshirt' tag turns blue, select 'upload 25 files'
+    ![Upload](./images/upload.JPG "Upload")
+    * Now you should see your images added to the environment for one class which is labelled on the left
+    ![One Class Added](./images/oneclassadded.JPG "One Class Added")
+
+5. Now complete Step 4 for the other 9 classes. Find below the corresponding label number to label text:
+
+| Label Number      | Label Text  |
+| ------------- |:-------------:|
+| 0      | tshirt |
+| 1      | trouser |
+| 2      | jumper |
+| 3      | dress |
+| 4      | coat |
+| 5      | sandal |
+| 6      | shirt |
+| 7      | trainers |
+| 8      | bag |
+| 9      | boots |
+
+
+* Select images from each category to upload
+* Add the correct tag to each class
+* Complete this for classes 0-9
+![All Classes Added](./images/allclasses.JPG "All Classes Added")
+
+6. Once all images are uploaded you are ready to train the model. In the top right corner click 'Train'
+![train](./images/train.JPG "train")
+
+7. After training you will be take to the 'Performance' tab where you will see summary statistics of the trained model you created - its not too bad!
+![performance](./images/performance.JPG "performance")
+
+
+
+
 
 ## Microsoft Data Science Virtual Machine for Deep Learning
 
