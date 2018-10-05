@@ -182,7 +182,7 @@ Notebook editors are often using in Machine Learning.
     * Rename the folder to: 'fashion-deep-learning'
     ![rename](./images/folderrename.JPG "rename") 
     * Upload the file 'Fashion_MNIST_Deep_Learning-code.ipynb' from [https://github.com/amynic/deep-learning-fashion/blob/master/deep-learning/Fashion_MNIST_Deep_Learning-code.ipynb](https://github.com/amynic/deep-learning-fashion/blob/master/deep-learning/Fashion_MNIST_Deep_Learning-code.ipynb)
-    ![upload](./images/upload.JPG "upload")
+    ![upload](./images/uploadpy.JPG "upload")
     * Once uploaded click the file to open it
 
 5. Explore and run the Jupyter Notebook
