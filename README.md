@@ -81,6 +81,23 @@ Both exercises will show you, step-by-step, how to classify clothing into catego
 
 7. After training you will be take to the 'Performance' tab where you will see summary statistics of the trained model you created - its not too bad!
 ![performance](./images/performance.JPG "performance")
+    * You can also review the performance metrics by category
+    ![performance by category](./images/perfbycategory.JPG "performance by category")
+
+8. Now to test the model on new images
+    * We can test the model quickly in the UI.
+    * In the top right click 'Quick Test'
+    ![quick test](./images/quicktest.JPG "quick test")
+    * choose browse for files and select an image from the 'test' folder. Click open and view the models evaluation of this image.
+    ![test](./images/test.JPG "test")
+    
+
+
+These images are 28 x 28 pixel images and so are very small. Therefore we will try another way of testing the model using an Azure Notebook.
+
+Notebook editors are often using in Machine Learning.
+
+
 
 
 
