@@ -138,3 +138,57 @@ Notebook editors are often using in Machine Learning.
 
 ## Microsoft Data Science Virtual Machine for Deep Learning
 
+1. Sign into Microsoft Azure: [http://azure.microsoft.com/](http://azure.microsoft.com/) and click 'Portal' in the top right corner
+
+2. Lets create a Data Science Virtual Machine (DSVM) (Linux Ubuntu). This is a great data science tool as it is a preconfigured virtual machine image with all the data science packages and software already installed. To find out more about the DSVM check out the documentation here: [https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview)
+    * In the Azure Portal, click 'Create a resource' in the top left corner
+    * Search for 'data science' and select 'Data Science Virtual Machine for Linux (Ubuntu)'
+    ![DSVM](./images/dsvm.JPG "DSVM")
+    * Choose create and fill in the fields to create a Virtual Machine image
+    ![Create DSVM](./images/createdsvm.JPG " Create DSVM")
+        * **Subscription:** choose your subscription
+        * **Resource Group:** select 'Create new' and call it 'techknow'
+        * **Virtual machine name:** choose a name for your machine such as 'techknow-<yourname>'
+        * **Region:** North Europe
+        * **Availability options:** no infrastructure redundancy required
+        * **Image:** keep default
+        * **Size:** keep default
+        * **Authentication type:** password
+        * **username:** create a log in username, for example your name or alias
+        * **password:** enter a string password and remember this you will need to use it shortly
+    * Click Review + create button
+    ![Review DSVM](./images/review.JPG " Review DSVM")
+    *The DSVM will start to deploy and you get a visual progress check on the items being created in your Azure Subscription
+    ![Review progress](./images/deploymentinprogress.JPG " Review progress")
+    * Once created choose 'Go to resource' and open the VM page
+    ![VM](./images/vm.JPG "VM")
+
+3. Connect to your Data Science Virtual Machine (DSVM)
+    * On the VM page click connect to find the IP address of the VM and copy it
+    ![Connect IP](./images/connect.JPG "Connect IP")
+    * Open a modern web browser and type: https://<ipadresshere>:8000/ to connect to Jupyter Hub to run a notebook
+    * You will recieve a certificate error. Choose the link 'Details' and click 'Go on to the webpage'
+    ![Connect cert](./images/secure.JPG "Connect Certificate")
+    * Login to Jupyter Hub using the Username and Password you setup for your virtual machine
+    ![Login Screen](./images/login.JPG "Login Screen")
+    * Once logged in you will see the Jupyter Notebook folder structure with many sample files already prepopulated.
+    ![Jupyter](./images/dsvmjupyter.JPG "Jupyter")
+
+4. Create a new folder for your code files
+    * Choose 'New' and select 'Folder'
+    ![folder](./images/newfolder.JPG "folder")
+    * Rename the folder by locating the directory and clicking rename.
+    ![rename](./images/rename.JPG "rename")
+    * Rename the folder to: 'fashion-deep-learning'
+    ![rename](./images/folderrename.JPG "rename") 
+    * Upload the file 'Fashion_MNIST_Deep_Learning-code.ipynb' from [https://github.com/amynic/deep-learning-fashion/blob/master/deep-learning/Fashion_MNIST_Deep_Learning-code.ipynb](https://github.com/amynic/deep-learning-fashion/blob/master/deep-learning/Fashion_MNIST_Deep_Learning-code.ipynb)
+    ![upload](./images/upload.JPG "upload")
+    * Once uploaded click the file to open it
+
+5. Explore and run the Jupyter Notebook
+
+6. Edit the Jupyter Notebook to edit the model
+
+
+
+
