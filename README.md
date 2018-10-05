@@ -186,8 +186,23 @@ Notebook editors are often using in Machine Learning.
     * Once uploaded click the file to open it
 
 5. Explore and run the Jupyter Notebook
+    * Once in the notebook you can run each cell by pressing CTRL + ENTER or you can select Cell from the toolbar and run all the cells at once
+    * Read through the comments in the notebook to understand the code further and run till completion
 
 6. Edit the Jupyter Notebook to edit the model
+    * Now can you edit the code in places to make changes to your model? Look out for hints, tips and questions in the notebook for how to edit the model
+
+
+# Remember to delete your resources
+
+The custom vision service and Azure notebooks are currently free to use. You do not need to delete or shut down these items
+
+For the Data Science VM, make sure you either:
+
+* **Delete the VM:** remove the resource from your subscription and lose your work by deleting
+![delete](./images/delete.JPG "delete") 
+* **Shutdown the VM:** keep the VM setup and work but shut down the machine. This stops the cost of compute resources but you still pay for the storage of the VM
+![shutdown](./images/stop.JPG "shutdown") 
 
 
 
