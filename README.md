@@ -125,7 +125,7 @@ Notebook editors are often using in Machine Learning.
     * Choose the uploaded python notebook file to open it
     ![File Uploaded](./images/file.JPG "File Uploaded")
     * You may recieve a message about the notebook Kernel. If so please select Python 2 and select 'Set Kernel'
-    ![Select Kernel](./images/kernel.JPG "Select Kernel")
+    ![Select Kernel](./images/selectkernel.JPG "Select Kernel")
 
 3. To run code in a python notebook. You select the code cell and press 'CTRL' + ENTER on your keyboard. You will see a small asteriks (*) at the left side of the notebook stating the notebook is running. Once complete the output of the code will be printed below each cell.
 ![Code](./images/code.JPG "Code")
