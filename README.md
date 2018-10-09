@@ -107,7 +107,7 @@ Notebook editors are often using in Machine Learning.
 
 ## Azure Notebooks for Image Classification
 
-1. Browse to [https//notebooks.azure.com/](https//notebooks.azure.com/)
+1. Browse to [https://notebooks.azure.com/](https://notebooks.azure.com/)
     * Choose sign in
     ![Azure notebooks sign in](./images/azurenotebooks.JPG "Azure notebooks sign in")
     * Sign in with your Microsoft Account username and password
