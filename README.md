@@ -138,6 +138,7 @@ Notebook editors are often using in Machine Learning.
     * Key
     ![Keys](./images/keys.JPG "Keys")
     * **custom_vision_url** - you can find this information under 'Performance' tab, choose 'Prediction URL' button and copy everything after *https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/* from the 'If you have an image URL' section
+
     ![Prediction Endpoint](./images/predictionendpoint.JPG "Predicition Endpoint")
 
 5. Now run the code using CTRL + ENTER and review the output. Which class was predicted with the highest probability?
@@ -146,7 +147,7 @@ Notebook editors are often using in Machine Learning.
 6. Why not try another image to test? Select another image from the 'test' folder: [https://github.com/amynic/deep-learning-fashion/tree/master/dataset/test](https://github.com/amynic/deep-learning-fashion/tree/master/dataset/test) and replace the filename in the **body** variable
 
 
-## Microsoft Data Science Virtual Machine for Deep Learning
+# [OPTIONAL] Microsoft Data Science Virtual Machine for Deep Learning
 
 1. Sign into Microsoft Azure: [http://azure.microsoft.com/](http://azure.microsoft.com/) and click 'Portal' in the top right corner
 
