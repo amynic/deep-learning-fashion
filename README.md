@@ -131,6 +131,8 @@ Notebook editors are often using in Machine Learning.
 ![Code](./images/code.JPG "Code")
     * To learn more about Jupyter Notebooks review the documentation here: [https://jupyter-notebook.readthedocs.io/en/stable/notebook.html](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
 
+**NOTE: the first cell in the custom-vision-sample notebook is currently refernecing an image incorrectly. Feel free to upload an image in Azure notebooks and reference that in the code instead - will fix shortly
+
 4. There are a few keys and urls we need to edit before running the code:
     * **customvisionapi_key** - you can find your 'prediction key' in customvision.ai UI under settings
     *Settings Tab
