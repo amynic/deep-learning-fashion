@@ -107,7 +107,7 @@ Notebook editors are often using in Machine Learning.
 
 ## Azure Notebooks for Image Classification
 
-1. Browse to [https://notebooks.azure.com/](https://notebooks.azure.com/)
+1. Browse to [https://notebooks.azure.com/?WT.mc_id=aiml-0000-amynic](https://notebooks.azure.com/?WT.mc_id=aiml-0000-amynic)
     * Choose sign in
     ![Azure notebooks sign in](./images/azurenotebooks.JPG "Azure notebooks sign in")
     * Sign in with your Microsoft Account username and password
@@ -139,7 +139,7 @@ Notebook editors are often using in Machine Learning.
     ![Settings](./images/settings.JPG "Settings")
     * Key
     ![Keys](./images/keys.JPG "Keys")
-    * **custom_vision_url** - you can find this information under 'Performance' tab, choose 'Prediction URL' button and copy everything after *https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/* from the 'If you have an image URL' section
+    * **custom_vision_url** - you can find this information under 'Performance' tab, choose 'Prediction URL' button and copy everything after *https://southcentralus.api.cognitive.microsoft.com/customvision/v2.0/Prediction/?WT.mc_id=aiml-0000-amynic* from the 'If you have an image URL' section
 
     ![Prediction Endpoint](./images/predictionendpoint.JPG "Predicition Endpoint")
 
@@ -151,9 +151,9 @@ Notebook editors are often using in Machine Learning.
 
 # [OPTIONAL] Microsoft Data Science Virtual Machine for Deep Learning
 
-1. Sign into Microsoft Azure: [http://azure.microsoft.com/](http://azure.microsoft.com/) and click 'Portal' in the top right corner
+1. Sign into Microsoft Azure: [https://azure.microsoft.com/?WT.mc_id=aiml-0000-amynic](https://azure.microsoft.com/?WT.mc_id=aiml-0000-amynic) and click 'Portal' in the top right corner
 
-2. Lets create a Data Science Virtual Machine (DSVM) (Linux Ubuntu). This is a great data science tool as it is a preconfigured virtual machine image with all the data science packages and software already installed. To find out more about the DSVM check out the documentation here: [https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview)
+2. Lets create a Data Science Virtual Machine (DSVM) (Linux Ubuntu). This is a great data science tool as it is a preconfigured virtual machine image with all the data science packages and software already installed. To find out more about the DSVM check out the documentation here: [https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/overview?WT.mc_id=aiml-0000-amynic](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/overview?WT.mc_id=aiml-0000-amynic)
     * In the Azure Portal, click 'Create a resource' in the top left corner
     * Search for 'data science' and select 'Data Science Virtual Machine for Linux (Ubuntu)'
     ![DSVM](./images/dsvm.JPG "DSVM")
